@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #7cc0d8;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+
+}
+.rps{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px; 
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color:pink;
+}
+#rock{
+    background-image: url("rock.png");
+}
+#paper{
+    background-image: url("paper.png");
+}
+#scissor{
+    background-image: url("scissor.jpg");
+}
+.rps:hover{
+    
+    animation: blink 2s linear infinite alternate;
+    cursor: pointer;
+}
+@keyframes blink{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: blue;
+    }
+    50%{
+        border-color: rgb(128, 0, 113);
+    }
+    100%{
+        border-color: rgb(40, 138, 81);
+    }
+}
+.scoreboard{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 25rem;
+    /* background-color: #66b6d2; */
+}
+.you h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}
+.computer h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+
+}
+.display{
+    width: 500px; 
+    height: 60px;
+    
+    display: inline-block;
+    /* background-color: #be4d25; */
+    position: relative;
+    top: 140px;
+    text-align: center;
+    position: relative;
+    left: 25rem;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: xx-large;
+    text-overflow:clip;
+    /* background-color: #66b6d2; */
+}
+.computerChoice{
+    
+    width:200px ;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color:pink;
+    animation: blink 2s linear infinite alternate;
+    position: relative;
+    left: 530px;
+    margin-top: 10px;
+}
+
+
