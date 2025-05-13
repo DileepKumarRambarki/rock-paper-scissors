@@ -36,7 +36,7 @@ This project simulates the classic Rock Paper Scissors game:
 
 ## 🙌 My Learning
 
-This was one of my **beginner-level projects**, completed under the guidance of **Apna College**. It helped me understand:
+This was one of my **beginner-level projects** . It helped me understand:
 
 - JavaScript conditionals and functions
 - DOM manipulation
